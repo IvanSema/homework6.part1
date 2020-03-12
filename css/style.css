@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../fonts/Montserrat-ExtraBold.eot');
+    src: url('../fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+    url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+
+.mainer{
+    background-color: #ffffff;
+    padding: 138px 0;
+}
+
+.text-who{
+    font-size: 12px;
+    text-transform: uppercase;
+    color:#898f99;
+    text-align:center;
+    font-family: 'Montserrat Bold';
+    letter-spacing: 5px;
+    margin: 0 0;
+}
+
+.text-hello{
+    font-size: 48px;
+    color: #0ec8cb;
+    text-transform: uppercase;
+    text-align:center;
+    margin: 20px 0 18px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.block-align{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 210px;
+}
+
+.text-we{
+    font-size: 18px;
+    color: #999999;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.wrapper{
+    margin: 108px auto 0 auto;
+    display:flex;
+    max-width: 940px;
+}
+
+.wrapper .cell{
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+    padding: 0px 30px 93px 30px;
+}
+
+.wrapper .cell:hover{
+    background-color: #0ec8cb;
+    border: 1px solid #ececec;
+    padding: 0px 30px 93px 30px;
+}
+
+.cell:hover div{
+    color:white;
+}
+
+.wrapper .icon-anchor{
+    box-sizing: border-box;
+    height: 53px;
+    width: 52px;
+    background-image: url(../images/icons.png);
+    background-position: 0 -1px;
+    margin: 56px auto;
+}
+
+.cell:hover .icon-anchor{
+    box-sizing: border-box;
+    height: 53px;
+    width: 52px;
+    background-image: url(../images/icons.png);
+    background-position: 0 -55px;
+    margin: 56px auto;
+}
+
+
+.wrapper .icon-diamond{
+    box-sizing: border-box;
+    height: 54px;
+    width: 54px;
+    background-image: url(../images/icons.png);
+    background-position: 197px 0;
+    margin: 56px auto 43px auto;
+}
+
+.cell:hover .icon-diamond{
+    box-sizing: border-box;
+    height: 54px;
+    width: 54px;
+    background-image: url(../images/icons.png);
+    background-position: 197px -54px;
+    margin: 56px auto 43px auto;
+}
+
+.wrapper .icon-eyeglasses{
+    box-sizing: border-box;
+    height: 49px;
+    width: 66px;
+    background-image: url(../images/icons.png);
+    background-position: 141px -5px;
+    margin: 64px auto;
+}
+
+.cell:hover .icon-eyeglasses{
+    box-sizing: border-box;
+    height: 49px;
+    width: 66px;
+    background-image: url(../images/icons.png);
+    background-position: 141px -54px;
+    margin: 64px auto;
+}
+
+.wrapper .icon-monitor{
+    box-sizing: border-box;
+    height: 52px;
+    width: 64px;
+    background-image: url(../images/icons.png);
+    background-position: 64px -2px;
+    margin: 61px auto 62px auto;
+}
+
+.cell:hover .icon-monitor{
+    box-sizing: border-box;
+    height: 52px;
+    width: 64px;
+    background-image: url(../images/icons.png);
+    background-position: 64px -54px;
+    margin: 61px auto 62px auto;
+}
+
+.wrapper .headline{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin: 0 0 34px 0;
+}
+
+.wrapper .description{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    text-align:center;
+    line-height: 22px;
+}
